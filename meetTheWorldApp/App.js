@@ -10,6 +10,7 @@ import Login from "./src/app/login/login.page"
 import Cadastrar from "./src/app/cadastrar/cadastrar.page"
 import Cadastrar2 from "./src/app/cadastrar_2/cadastrar2.page"
 import Menu from "./src/app/menu/menu.page"
+import EditProfile from "./src/app/edit_profile/editProfile.page";
 
 const Stack = createNativeStackNavigator()
 
@@ -65,6 +66,10 @@ const App = () => {
       <Stack.Screen 
         name = "Cadastrar2" 
         component = {Cadastrar2}
+      ></Stack.Screen>
+      <Stack.Screen 
+        name = "editProfile" 
+        component = {EditProfile}
       ></Stack.Screen>
     </Stack.Navigator>
   </NavigationContainer>

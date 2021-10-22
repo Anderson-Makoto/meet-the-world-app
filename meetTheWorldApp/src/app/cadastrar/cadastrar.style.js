@@ -13,9 +13,9 @@ const styles = StyleSheet.create({
         justifyContent: "space-around"
     },
     textInput_text: {
-        color: "white",
+        color: colors.BUTTON_TEXT_COLOR_WHITE,
         borderBottomWidth: 1,
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         width: "90%"
     },
     buttonSpace: {
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderRadius: 25,
         height: "20%",
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         width: "25%",
         justifyContent: "center",
         alignItems: "center"

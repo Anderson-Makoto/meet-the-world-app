@@ -49,4 +49,29 @@ const logout = (id, token) => {
     })
 }
 
-export { userCreate, login, logout }
+const updateUser = (userData, token) => {
+    const data = {
+        name: userData.name,
+        tipo_id: userData.tipoId,
+        local_id: userData.localId,
+        budget: userData.budget
+    }
+
+    const header = {
+        "Accept": "application/json",
+        "Authorization": `Bearer ${token}`
+    }
+
+    return axios.put(BASE_URL + "/user/" + userData.id, data, {
+        headers: {
+            "Accept": "application/json",
+            "Authorization": `Bearer ${token}`
+        }
+    }).then(res => {
+        res.data
+    }).catch(err => {
+        throw toString(err)
+    })
+}
+
+export { userCreate, login, logout, updateUser }

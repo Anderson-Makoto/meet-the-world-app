@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         width: "100%",
         height: "10%",
         borderBottomWidth: 1,
-        borderColor: "gray"
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY
     },
     imageContainer: {
         height: "10%",
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
     uploadPhotosContainer: {
         borderWidth: 1,
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         borderRadius: 10,
         width: "40%",
         height: "10%",
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         alignSelf: "flex-start"
     },
     uploadPhotosContainer_text: {
-        color: "white"
+        color: colors.BUTTON_TEXT_COLOR_WHITE
     },
     imageContainer_images: {
         flex: 1,
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     },
     descrption: {
         marginTop: "5%",
-        color: "white",
+        color: colors.BUTTON_TEXT_COLOR_WHITE,
         height: "20%",
         width: "100%",
         backgroundColor: colors.BACKGROUND_COLOR_2
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     },
     cancelButton: {
         borderWidth: 1,
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         borderRadius: 10,
         width: "40%",
         height: "100%",
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     },
     saveButton: {
         borderWidth: 1,
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         borderRadius: 10,
         width: "40%",
         height: "100%",
@@ -84,18 +84,18 @@ const styles = StyleSheet.create({
     },
     options_label: {
         width: "85%",
-        color: "white"
+        color: colors.BUTTON_TEXT_COLOR_WHITE
     },
     options_picker: {
         width: "85%",
-        color: "white",
+        color: colors.BUTTON_TEXT_COLOR_WHITE,
         backgroundColor: colors.BACKGROUND_COLOR_2
     },
     options_budget: {
         width: "85%",
-        color: "white",
+        color: colors.BUTTON_TEXT_COLOR_WHITE,
         borderBottomWidth: 1,
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         marginTop: "5%"
     },
 })

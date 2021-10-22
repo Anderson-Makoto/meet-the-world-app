@@ -16,16 +16,16 @@ const styles = StyleSheet.create({
     },
     options_label: {
         width: "85%",
-        color: "white"
+        color: colors.BUTTON_TEXT_COLOR_WHITE
     },
     options_picker: {
         width: "85%",
-        color: "white",
+        color: colors.BUTTON_TEXT_COLOR_WHITE,
         backgroundColor: colors.BACKGROUND_COLOR_2
     },
     options_budget: {
         width: "85%",
-        color: "white",
+        color: colors.BUTTON_TEXT_COLOR_WHITE,
         borderBottomWidth: 1,
         borderColor: "gray"
     },
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     },
     buttonView_button: {
         borderWidth: 1,
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         borderRadius: 25,
         width: "25%",
         height: "15%",

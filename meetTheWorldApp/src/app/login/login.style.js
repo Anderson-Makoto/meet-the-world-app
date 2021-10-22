@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     inputs_button: {
         color: "white",
         borderBottomWidth: 1,
-        borderBottomColor: "gray"
+        borderBottomColor: colors.BUTTON_BORDER_COLOR_GRAY
     },
     buttons: {
         paddingTop: "15%",
@@ -37,14 +37,14 @@ const styles = StyleSheet.create({
     buttons_button: {
         borderWidth: 1,
         borderRadius: 10,
-        borderColor: "gray",
+        borderColor: colors.BUTTON_BORDER_COLOR_GRAY,
         height: "30%",
         width: "30%",
         justifyContent: "center",
         alignItems: "center"
     },
     buttons_button_text: {
-        color: "white"
+        color: colors.BUTTON_TEXT_COLOR_WHITE
     }
 })
 
